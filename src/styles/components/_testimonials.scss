@@ -1,0 +1,44 @@
+/* Testimonials */
+.testimonials {
+  background-color: $gray-100;
+  padding: $spacing-16 0;
+  
+  &__slider {
+    position: relative;
+    max-width: 800px;
+    margin: 0 auto;
+    overflow: hidden;
+  }
+  
+  &__nav {
+    display: flex;
+    justify-content: center;
+    margin-top: $spacing-8;
+  }
+  
+  &__nav-btn {
+    width: 40px;
+    height: 40px;
+    border-radius: $border-radius-full;
+    background-color: white;
+    box-shadow: $shadow;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin: 0 $spacing-2;
+    transition: $transition-base;
+    
+    svg {
+      fill: $gray-700;
+      transition: $transition-base;
+    }
+    
+    &:hover {
+      background-color: $primary-color;
+      
+      svg {
+        fill: white;
+      }
+    }
+  }
+}

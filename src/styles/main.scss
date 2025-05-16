@@ -1,0 +1,30 @@
+/* 
+ * Klarissa Digital Landing Page Styles
+ * Main SCSS File
+ */
+
+// Variables
+@import 'variables';
+
+// Base Styles
+@import 'base/reset';
+@import 'base/typography';
+@import 'base/utilities';
+
+// Components
+@import 'components/buttons';
+@import 'components/forms';
+@import 'components/cards';
+@import 'components/testimonials';
+
+// Layout
+@import 'layout/grid';
+@import 'layout/header';
+@import 'layout/footer';
+@import 'layout/sections';
+
+// Pages
+@import 'pages/home';
+
+// Responsive
+@import 'responsive/media-queries';

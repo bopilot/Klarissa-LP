@@ -1,0 +1,142 @@
+/* Typography */
+h1, h2, h3, h4, h5, h6 {
+  font-weight: $font-weight-bold;
+  line-height: $line-height-tight;
+  margin-bottom: $spacing-4;
+  color: $gray-900;
+}
+
+h1 {
+  font-size: $font-size-4xl;
+  
+  @media (min-width: $breakpoint-md) {
+    font-size: $font-size-5xl;
+  }
+}
+
+h2 {
+  font-size: $font-size-3xl;
+  
+  @media (min-width: $breakpoint-md) {
+    font-size: $font-size-4xl;
+  }
+}
+
+h3 {
+  font-size: $font-size-2xl;
+  
+  @media (min-width: $breakpoint-md) {
+    font-size: $font-size-3xl;
+  }
+}
+
+h4 {
+  font-size: $font-size-xl;
+  
+  @media (min-width: $breakpoint-md) {
+    font-size: $font-size-2xl;
+  }
+}
+
+h5 {
+  font-size: $font-size-lg;
+  
+  @media (min-width: $breakpoint-md) {
+    font-size: $font-size-xl;
+  }
+}
+
+h6 {
+  font-size: $font-size-base;
+  
+  @media (min-width: $breakpoint-md) {
+    font-size: $font-size-lg;
+  }
+}
+
+p {
+  margin-bottom: $spacing-4;
+  color: $gray-700;
+}
+
+.text-link {
+  color: $primary-color;
+  transition: $transition-base;
+  
+  &:hover {
+    color: $secondary-color;
+    text-decoration: underline;
+  }
+}
+
+.text-sm {
+  font-size: $font-size-sm;
+}
+
+.text-lg {
+  font-size: $font-size-lg;
+}
+
+.text-xl {
+  font-size: $font-size-xl;
+}
+
+.text-2xl {
+  font-size: $font-size-2xl;
+}
+
+.font-light {
+  font-weight: $font-weight-light;
+}
+
+.font-normal {
+  font-weight: $font-weight-normal;
+}
+
+.font-medium {
+  font-weight: $font-weight-medium;
+}
+
+.font-semibold {
+  font-weight: $font-weight-semibold;
+}
+
+.font-bold {
+  font-weight: $font-weight-bold;
+}
+
+.text-center {
+  text-align: center;
+}
+
+.text-left {
+  text-align: left;
+}
+
+.text-right {
+  text-align: right;
+}
+
+.text-primary {
+  color: $primary-color;
+}
+
+.text-secondary {
+  color: $secondary-color;
+}
+
+.text-accent {
+  color: $accent-color;
+}
+
+.text-dark {
+  color: $dark-color;
+}
+
+.text-light {
+  color: $light-color;
+}
+
+.text-gray {
+  color: $gray-500;
+}

@@ -1,0 +1,37 @@
+/* Responsive Styles */
+// Mobile First Approach
+// Small devices (landscape phones)
+@media (min-width: $breakpoint-sm) {
+  // Styles for small devices and up
+}
+
+// Medium devices (tablets)
+@media (min-width: $breakpoint-md) {
+  // Styles for medium devices and up
+}
+
+// Large devices (desktops)
+@media (min-width: $breakpoint-lg) {
+  // Styles for large devices and up
+}
+
+// Extra large devices (large desktops)
+@media (min-width: $breakpoint-xl) {
+  // Styles for extra large devices and up
+}
+
+// Extra extra large devices
+@media (min-width: $breakpoint-2xl) {
+  // Styles for extra extra large devices
+}
+
+// Max-width queries for specific device ranges
+// Mobile only
+@media (max-width: $breakpoint-sm - 1px) {
+  // Styles for mobile only
+}
+
+// Tablet only
+@media (min-width: $breakpoint-sm) and (max-width: $breakpoint-lg - 1px) {
+  // Styles for tablets only
+}

@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="64px" height="64px" viewBox="0 0 64 64" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <title>SEO Icon</title>
+    <g stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <rect fill="#4361EE" opacity="0.1" x="0" y="0" width="64" height="64" rx="32"></rect>
+        <g transform="translate(16.000000, 16.000000)" fill="#4361EE" fill-rule="nonzero">
+            <path d="M12.5,11 L11.71,11 L11.43,10.73 C12.41,9.59 13,8.11 13,6.5 C13,2.91 10.09,0 6.5,0 C2.91,0 0,2.91 0,6.5 C0,10.09 2.91,13 6.5,13 C8.11,13 9.59,12.41 10.73,11.43 L11,11.71 L11,12.5 L16,17.49 L17.49,16 L12.5,11 Z M6.5,11 C4.01,11 2,8.99 2,6.5 C2,4.01 4.01,2 6.5,2 C8.99,2 11,4.01 11,6.5 C11,8.99 8.99,11 6.5,11 Z"></path>
+            <path d="M19,14 L27,14 L27,16 L19,16 L19,14 Z M19,10 L32,10 L32,12 L19,12 L19,10 Z M19,6 L32,6 L32,8 L19,8 L19,6 Z M19,2 L32,2 L32,4 L19,4 L19,2 Z"></path>
+        </g>
+    </g>
+</svg>
